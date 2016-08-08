@@ -1,0 +1,15 @@
+{
+    "name": "carmudi/software-engineer-test",
+    "description": "Measurement unit test",
+    "type": "application",
+    "require": {
+    },
+    "license": "proprietary",
+    "authors": [
+        {
+            "name": "Fábio Carneiro",
+            "email": "fahecs@gmail.com"
+        }
+    ],
+    "minimum-stability": "stable"
+}
