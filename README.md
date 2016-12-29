@@ -30,16 +30,17 @@ The vehicle needs to contain the following information:
  - Git knowledge is required. Workflow is also evaluated, so having history is desirable. It is not required, but it is recommended that you push your changes as frequently as possible to the repository, and not only at the very end.
  - Docker configuration is provided only for your convenience. You can deliver your running application using Docker (which you are also free to modify the configuration) or using also the internal PHP server, or any other tool you prefer, as long as you provide clear instructions on how to run it.
  - The result needs to be delivered in 72 hours from the time it is made available. The repository write access will be removed and the code will be evaluated the way it is in the respository.
- - Use any tool you think make sense to ensure that good quality code is delivered (clue: *unit testing*)
+ - Use any tool you think make sense to ENSURE that good QUALITY code is delivered.
 
 ## Evaluation process
- - We will read the code first. The criterias are ordered by importance (ranked highest to lowest).
+ - We will read the code first. The criteria are ordered by importance (ranked highest to lowest).
   1. Code Quality
-  2. Maintainability
-  3. Code Design
-  4. Data storage choice
-  5. Task understanding
-  2. Task completeness
+  2. CODE QUALITY (not a typo)
+  3. Maintainability
+  4. Code Design
+  5. Data storage choice
+  6. Task understanding
+  7. Task completeness
  - We will evaluate the workflow (if Git history is available).
  - We will run the application and send HTTP requests
 
