@@ -37,7 +37,7 @@ The vehicle needs to contain the following information:
   1. Code Quality
   2. CODE QUALITY (not a typo)
   3. Maintainability
-  4. Code Design
+  4. Code Design (procedural code = automatic fail)
   5. Data storage choice
   6. Task understanding
   7. Task completeness
