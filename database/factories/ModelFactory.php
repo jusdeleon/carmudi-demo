@@ -11,9 +11,11 @@
 |
 */
 
-$factory->define(App\User::class, function (Faker\Generator $faker) {
+$factory->define(App\Vehicle::class, function (Faker\Generator $faker) {
     return [
         'name' => $faker->name,
-        'email' => $faker->email,
+        'engine_displacement_value' => $faker->randomFloat(),
+        'engine_displacement_uom' => array_random(\App\Vehicle::ENGINE_DISPLACEMENT_UOMS),
+        'engine_power' => $faker->randomFloat(),
     ];
 });
