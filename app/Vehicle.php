@@ -21,4 +21,8 @@ class Vehicle extends Model
         'engine_power',
     ];
 
+    public function getEngineDisplacementAttribute()
+    {
+        return $this->engine_displacement_value . ' ' . $this->engine_displacement_uom;
+    }
 }

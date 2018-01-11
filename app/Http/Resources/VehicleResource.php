@@ -17,6 +17,7 @@ class VehicleResource extends Resource
         return [
             'id' => $this->id,
             'name' => $this->name,
+            'engine_displacement' => $this->engine_displacement,
             'engine_displacement_value' => $this->engine_displacement_value,
             'engine_displacement_uom' => $this->engine_displacement_uom,
             'engine_power' => $this->engine_power,
