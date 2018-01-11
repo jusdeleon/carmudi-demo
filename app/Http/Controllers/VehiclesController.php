@@ -2,12 +2,15 @@
 
 namespace App\Http\Controllers;
 
+use App\Http\Resources\VehicleResource;
 use App\Vehicle;
 
 class VehiclesController extends Controller
 {
     public function index()
     {
-        return Vehicle::all();
+        $vehicles = Vehicle::all();
+
+        return VehicleResource::collection($vehicles);
     }
 }
