@@ -17,7 +17,14 @@ Serve the app by running `php -S localhost:8000 -t public` in the project root.
 
 ## Testing
 
-1. Run `composer test` in the project root to run the tests.
+1. **IMPORTANT:** Create a new database for testing. In the file `phpunit.xml`, update `DB_DATABASE`'s value to the name of the database you just created.
+
+    ```
+    // phpunit.xml
+    <env name="DB_DATABASE" value="your-testing-database-name"/>
+    ```
+
+2. Run `composer test` in the project root to run the tests.
 
 ## Optional (This will not impact in your result)
 
