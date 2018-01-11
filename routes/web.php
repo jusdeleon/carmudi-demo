@@ -12,3 +12,4 @@
 */
 
 $router->get('vehicles', 'VehiclesController@index');
+$router->post('vehicles', 'VehiclesController@store');
