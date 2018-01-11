@@ -2,9 +2,16 @@
 
 ## Installation
 
-1. Install dependencies by running `composer install`
-2. Copy the `.env.example` to a file named `.env` and configure your DB settings there.
+### Project dependencies
+
+Install dependencies by running `composer install`.
+
+### Configuring the database
+
+1. Create a database then copy the contents of the file `.env.example` to a file named `.env`. Configure your DB settings there.
 3. Run `php artisan migrate` to migrate the database.
+
+### Serving the app
 
 Serve the app by running `php -S localhost:8000 -t public` in the project root.
 
