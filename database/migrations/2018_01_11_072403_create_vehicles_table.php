@@ -19,7 +19,6 @@ class CreateVehiclesTable extends Migration
             $table->float('engine_displacement_value');
             $table->enum('engine_displacement_uom', ['L', 'CC', 'CID']);
             $table->float('engine_power');
-            $table->timestamps();
         });
     }
 
