@@ -15,6 +15,28 @@ Install dependencies by running `composer install`.
 
 Serve the app by running `php -S localhost:8000 -t public` in the project root.
 
+### Endpoints
+
+1. To see the list of vehicles, make a GET request to `/vehicles`
+2. To register a vehicle, make a POST request to `/vehicles` with the following JSON body:
+
+```json
+{
+  "name": "Car",
+  "engine_displacement_value": 5.5,
+  "engine_displacement_uom": "CC",
+  "engine_power": 1.5
+}
+```
+
+Where:
+
+- `name` is a string not more that 255 characters
+- `engine_displacement_value` is a float
+- `engine_displacement_uom` is a string with preset valid values: `L`, `CC`, and `CID`
+- `engine_power` is a float
+
+    
 ## Testing
 
 1. **IMPORTANT:** Create a new database for testing. In the file `phpunit.xml`, update `DB_DATABASE`'s value to the name of the database you just created.
