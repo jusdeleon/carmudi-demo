@@ -3,7 +3,7 @@
 use App\Vehicle;
 use Laravel\Lumen\Testing\DatabaseMigrations;
 
-class VehiclesTest extends TestCase
+class VehiclesApiTest extends TestCase
 {
     use DatabaseMigrations;
 
