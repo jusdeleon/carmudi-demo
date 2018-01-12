@@ -32,9 +32,9 @@ Serve the app by running `php -S localhost:8000 -t public` in the project root.
 Where:
 
 - `name` is a string not more that 255 characters
-- `engine_displacement_value` is a float
+- `engine_displacement_value` is a number
 - `engine_displacement_uom` is a string with preset valid values: `L`, `CC`, and `CID`
-- `engine_power` is a float
+- `engine_power` is a number
 
     
 ## Testing
